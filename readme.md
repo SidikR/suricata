@@ -112,6 +112,9 @@ af-packet:
 
 ## 4. Konfigurasi Iptables
 Flush aturan lama:
+
+Kalo kamu ngelakuin ini ssh akan teroputus cuy, jadi lakuin di server aja
+
 ```bash
 iptables -F
 iptables -X
